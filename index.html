@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <div class="nav-izq">
+                <ul>
+                    <li><a href="#HOME">HOME</a></li>
+                    <li><a href="#SOBRE">SOBRE NOSOTROS</a></li>
+                    
+                </ul>
+            </div>
+            <div class="nav-logo">
+                <span id="logo-elsalon"><img src="/img/elsalon.png" alt="" srcset=""></span>
+            </div>  
+            <div class="nav-der">
+                <ul>
+                    <li><a href="#SERVICIOS">SERVICIOS</a></li>
+                    
+                    <li><a href="#TURNOS">TURNOS</a></li>
+                    <button><a href="#CONTACTO">CONTACTO</a></button>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <section id="HOME">
+        <div class="container-home">
+            <div class="home-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat dicta, libero deserunt beatae commodi soluta, incidunt ea ex aut impedit similique quasi dolores? Qui ipsum impedit ipsam distinctio vero nobis.
+                Soluta voluptate ea laborum tempora amet accusantium quam, ad porro, labore eligendi repellat? Voluptate possimus cupiditate perferendis, fugit magni libero veniam assumenda reiciendis dicta est eos aliquam, exercitationem atque quos.</p>
+                <div class="buttons-text">
+                    <button class="home-cont"><a href="#CONTACTO" >CONTACTANOS</a></button>
+                    <button class="home-turno"><a href="#TURNOS" >TURNOS</a></button>
+                </div>
+            </div>
+            <div class="logo">
+                <span><img src="/logo/el salon.svg" alt="" srcset=""></span>
+            </div>
+
+        </div>
+    </section>
+    <section id="SOBRE">
+        <div class="container-sobre">
+            <div class="textos-sobre">
+                <h1 class="titulo-sobre">Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, minima autem? Ut amet beatae quasi blanditiis corrupti recusandae, quidem sapiente iure doloremque molestias quis neque culpa ratione, nobis voluptas velit!
+                Iste adipisci aspernatur minus amet cumque veritatis ducimus dolores consequatur dolor id rem vel quisquam voluptas aut blanditiis qui quia a, atque repudiandae! Adipisci molestias vero enim doloremque quaerat suscipit!</p>
+            </div>
+            <div class="carrousel">
+                <ul>
+                    <li><img src="/img/lavadodepelo.jpg" alt="" srcset=""></li>
+                    <li><img src="/img/cortedepelo.jpg" alt="" srcset=""></li>
+                    <li><img src="/img/decoloraciondepelo.jpg" alt="" srcset=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="SERVICIOS">
+        <div class="container-serv">
+            <ul class=" img-serv">
+                <li>
+                    <div class="card">
+                        <img src="/img/lavadodepelo.jpg" alt="" srcset="">
+                        <h1>Lavado de Cabello/Nutrición Capilar</h1>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="/img/cortedepelo.jpg" alt="" srcset="">
+                        <h1>Corte de Cabello/Perfilamiento de Cejas</h1>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="/img/decoloraciondepelo.jpg" alt="" srcset="">
+                        <h1>Decoloración de Cabello/Tintura para Cabello</h1>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="TURNOS">
+        <div class="container-turnos">
+            <span>Aqui vamos a hacer uso de la API de Google Calendar para registrar eventos</span>
+        </div>
+        
+    </section>
+    <section id="CONTACTO">
+        <div class="container-cont">
+            <div class="info-contacto">
+                <div class="ubi-cont">
+                    <i class="fa-regular fa-map"></i>
+                    <span>Localizacion 1234, Argentina</span>
+                </div>
+                <div class="tel-cont">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <span>11 2345 6789</span>
+                </div>
+                <div class="mail-cont">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>algunmail@mail.com</span>
+                </div>
+            </div>
+            <div class="form-container">
+                <form action="/" class="formulario-contact">
+                    <div class="datos-contacto">
+                        <span>Escribenos un mensaje</span>
+                        <div class="elementos-form">
+                            <label for="">Ingresa tu nombre <span>*</span></label>
+                            <input type="text" required/>
+                            <label for="">Ingresa tu apellido <span>*</span></label>
+                            <input type="text" required/>
+                        </div>
+                        <div class="elementos-form">
+                            <label for="">Ingresa tu mail <span>*</span></label>
+                            <input type="text" required/>
+                        </div>
+                        <div class="elementos-form">
+                            <label for="">Ingresa tu mensaje <span>*</span></label>
+                            <input type="text" required/>
+                        </div>
+                        <button type="submit"></button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/ef20d64fb8.js" crossorigin="anonymous"></script>
+</body>
+</html>
